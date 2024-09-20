@@ -1,4 +1,4 @@
-load ./data_set/example_new.mat
+load ./example_new.mat
 
 for i=3:4
     if rem(max(trandata(:,i)),1) ~= 0 
