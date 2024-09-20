@@ -17,7 +17,7 @@ function M_sim = ele_Sim(data, lammda) %return M_sim, whose every i of 3th d is 
     end
 %     delta
 
-    for i=1:attrinu %计算关于每一个属性的相似度矩阵 %1
+    for i=1:attrinu 
         col=i;
         r=[];
         eval(['ssr' num2str(col) '=[];']);
